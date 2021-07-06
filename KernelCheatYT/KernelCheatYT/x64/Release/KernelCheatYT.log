@@ -1,0 +1,31 @@
+﻿  Building 'KernelCheatYT' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\KernelCheatYT.inf
+  Stamping [Version] section with DriverVer=07/06/2021,12.48.54.409
+  hook.cpp
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(10,1): error C2011: '_STYSTEM_INFORMARTION_CLASS': 'enum' type redefinition
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(9): message : see declaration of '_STYSTEM_INFORMARTION_CLASS'
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(27,1): error C2011: '_RTL_PROCESS_MODULE_INFORMATION': 'struct' type redefinition
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(26): message : see declaration of '_RTL_PROCESS_MODULE_INFORMATION'
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(41,1): error C2011: '_RTL_PROCESS_MODULES': 'struct' type redefinition
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(40): message : see declaration of '_RTL_PROCESS_MODULES'
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(6,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(44,8): error C2059: syntax error: 'user-defined literal'
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(46,5): error C3688: invalid literal suffix 'pModule'; literal operator or literal operator template 'operator ""pModule' not found
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(49,38): error C3688: invalid literal suffix 'pModule'; literal operator or literal operator template 'operator ""pModule' not found
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(66,60): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\hook.cpp(22,57): error C2065: 'hook_address': undeclared identifier
+  main.cpp
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\main.cpp(5,2): error C2065: 'driver_object': undeclared identifier
+  memory.cpp
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(10,1): error C2011: '_STYSTEM_INFORMARTION_CLASS': 'enum' type redefinition
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(9): message : see declaration of '_STYSTEM_INFORMARTION_CLASS'
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(27,1): error C2011: '_RTL_PROCESS_MODULE_INFORMATION': 'struct' type redefinition
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(26): message : see declaration of '_RTL_PROCESS_MODULE_INFORMATION'
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(41,1): error C2011: '_RTL_PROCESS_MODULES': 'struct' type redefinition
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\definitions.h(40): message : see declaration of '_RTL_PROCESS_MODULES'
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(6,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(44,8): error C2059: syntax error: 'user-defined literal'
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(46,5): error C3688: invalid literal suffix 'pModule'; literal operator or literal operator template 'operator ""pModule' not found
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(49,38): error C3688: invalid literal suffix 'pModule'; literal operator or literal operator template 'operator ""pModule' not found
+C:\Users\Stas\source\repos\KernelCheatYT\KernelCheatYT\memory.cpp(66,60): warning C4267: 'argument': conversion from 'size_t' to 'ULONG', possible loss of data
+  Generating Code...
